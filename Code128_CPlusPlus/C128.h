@@ -422,7 +422,7 @@ vector<element_t> Code128::FindStartorCodeCharacter(string s, int &col)
 	vector<element_t> rows = vector<element_t>();
 
 	//if two chars are numbers (or FNC1) then START_C or CODE_C
-	if (s.size() > 1 && (isdigit(s[0]) || &s[0] == FNC1) && (isdigit(s[1]) || &s[0] == FNC1))
+	if (s.size() > 1 && (isdigit(s[0]) || &s[0] == FNC1) && (isdigit(s[1]) || &s[1] == FNC1))
 	{
 		if (!&StartCharacter)
 		{
