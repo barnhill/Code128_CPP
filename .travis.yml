@@ -1,1 +1,2 @@
 language: cpp
+script: g++ Main.cpp bmpfile.cpp bmpfile.h C128.h C128_Defines.h
