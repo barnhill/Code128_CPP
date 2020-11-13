@@ -1,2 +1,0 @@
-language: cpp
-script: cd Code128_CPlusPlus && g++ Main.cpp bmpfile.cpp bmpfile.h C128.h C128_Defines.h
